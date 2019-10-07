@@ -14,4 +14,4 @@ def graph(formula, x_range):
 def my_formula(x):
 	return 2**x
 
-graph(my_formula, range(0, 10, .001))
+graph(my_formula, range(0, 10, 1))
